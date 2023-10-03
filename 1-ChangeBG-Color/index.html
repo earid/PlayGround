@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Landing Page - With Background Video Slider | Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="box">
+      <a onclick="changecolor('red')" id="red">#E84C3D</a>
+      <a onclick="changecolor('green')" id="green">#2C97DF</a>
+      <a onclick="changecolor('yellow')" id="yellow">#1ABC9B</a>
+      <a onclick="changecolor('gray')" id="gray">#2D3E50</a>
+      <a onclick="changecolor('yellow')" id="yellow">yellow">#F1C50E</a>
+      <a onclick="changecolor('orange')" id="orange">#E77E22</a>
+    </div>
+    <script type="text/javascript">
+      function changecolor(id) {
+        document.body.style.background = document.getElementById(id).innerHTML;
+      }
+
+
+    </script>
+  </body>
+</html>
