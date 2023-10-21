@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: dodgerblue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.box {
+  width: 600px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+.box h1 {
+  text-align: center;
+  color: dodgerblue;
+  margin-bottom: 30px;
+}
+label {
+  display: inline-block;
+  padding-bottom: 10px;
+  color: #000;
+  font-weight: 500;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-family: inherit;
+}
+button {
+  padding: 10px;
+  width: 100%;
+  background: dodgerblue;
+  color: #fff;
+  border: 1px solid dodgerblue;
+  transition: all 0.5s;
+  margin-top: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+button:hover {
+  background: #fff;
+  color: dodgerblue;
+}
+#result {
+  color: dodgerblue;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
