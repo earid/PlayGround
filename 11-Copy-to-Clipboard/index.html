@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript Practices</title>
+  
+  </head>
+  <body>
+    <div class="container">
+      <textarea name="" id="content" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, eveniet minima. Nam id deserunt maxime amet expedita enim quae voluptatum?
+      </textarea>
+     
+    </div>
+    <button id="btnCopy">Copy To Clickbord</button>
+    <br>
+    <br>
+    <div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Paste content here"></textarea>
+    </div>
+    <script>
+   document.querySelector('#btnCopy')
+   .addEventListener('click', ()=>{
+const content = document.querySelector('#content');
+const cb = navigator.clipboard;
+cb.writeText(content.value)
+.then(()=>{
+  alert('Text Copied')
+})
+   })
+
+
+
+     </script>
+  <script type="text/javascript" src="scripts.js"></script>
+</html>
