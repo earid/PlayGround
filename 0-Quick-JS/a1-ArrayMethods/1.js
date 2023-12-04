@@ -1,4 +1,3 @@
-// filter methods 
 const items = [
     { name: 'Bike', price: '500' },
     { name: 'TV', price: '520' },
@@ -11,7 +10,13 @@ const items = [
     { name: 'Keyboard', price: '250' },
     { name: 'CPC', price: '300' }
 ];
+// filter methods 
 const fiitem = items.filter((items) => {
     return items.price <= 500
 })
 console.log((fiitem));
+// map methods
+const newItem = items.map((item) => {
+    return item.price
+})
+console.log(newItem);
