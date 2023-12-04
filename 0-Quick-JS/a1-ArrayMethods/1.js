@@ -20,3 +20,7 @@ const newItem = items.map((item) => {
     return item.price
 })
 console.log(newItem);
+// forEach
+items.forEach((item) => {
+    console.log(item.price);
+})
