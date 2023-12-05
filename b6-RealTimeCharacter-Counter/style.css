@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.container {
+  background-color: palegoldenrod;
+  padding: 2rem;
+  border-radius: 5%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.container h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+textarea {
+  width: 100%;
+  background: papayawhip;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 1px solid #eee;
+  font-family: inherit;
+}
+#counter {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  color: #333;
+}
