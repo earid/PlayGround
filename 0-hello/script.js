@@ -31,7 +31,6 @@ const cToF = (celsius) => {
   const message = `${cTemp}\xB0C is ${cToFahr} \xB0F.`;
   console.log(message);
 };
-
 const fToC = (fahrenheit) => {
   const fTemp = fahrenheit;
   const fToCel = (fTemp - 32) * 5 / 9;
@@ -40,3 +39,6 @@ const fToC = (fahrenheit) => {
 };
 cToF(60);
 fToC(45);  
+
+// get the website URL (loading page).
+alert(document.URL);
