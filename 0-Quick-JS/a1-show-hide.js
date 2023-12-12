@@ -8,8 +8,9 @@ function showHide() {
     return a = 1;
   }
 }
------------
+/*
    <body>
     <img id="img" src="/img/5.jpg" alt="" />
     <div><button onclick="showHide()">Show & Hide</button></div>
   </body>
+*/
