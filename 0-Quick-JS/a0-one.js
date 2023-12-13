@@ -9,3 +9,5 @@ function myFun() {
     let height = img.naturalHeight;
     alert('Image Width =' + width + ' Image height = ' + height);
 }
+// Simple validation of a username with regex
+const validateUsr = username => /^[a-z0-9_]{4,16}$/g.test(username);
